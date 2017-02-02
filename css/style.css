@@ -369,7 +369,7 @@ section::before {
 }
 #navigation nav .brand-logo {
     position: relative;
-    top: -10px;
+    top: 10px;
     display: inline-block;
     height: 50px;
 }
@@ -793,6 +793,7 @@ section::before {
 }
 .features-text {
     overflow: hidden;
+    text-align: left;
 }
 .features-text h4 {
     margin-bottom: 10px;
@@ -2107,4 +2108,13 @@ download-section .center-heading h3 {
     .error-block .details h3 {
         font-size: 28px;
     }
+}
+
+
+/*
+
+adjustments
+*/
+.none_a{
+    color: red;
 }

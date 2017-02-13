@@ -85,7 +85,7 @@ ul li{
 }
 @media only screen and ( max-width:767px ) {
     .hero1-text h2 {
-        font-size: 28px;
+        font-size: 20px;
     }  
     .home-section::before {
          background-image: url('../img/divider2.jpg');

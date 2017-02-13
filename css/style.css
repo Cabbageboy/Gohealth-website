@@ -710,8 +710,8 @@ section::before {
         left: 0;
     }
     .home-section::before {
-        
-        background-position:-450px ;
+        background-image: url('../img/div2new.jpg');
+        background-position:-200px ;
  
     }
 }

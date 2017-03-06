@@ -1906,17 +1906,21 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
  * 15. Download Section
  * ************************************************************** */
 
-.download-section {
+.app-download-section {
     z-index:0;
     background-color: #0288d1;
     opacity:0.3;   
 }
-.download-section .center-heading,
+
+.download-section {
+    background-color: #0288d1;
+}
+.download-section .app-download-section .center-heading,
 download-section .center-heading h3 {
     margin: 0;
     font-weight: 300;
 }
-.download-section .center-heading i {
+.download-section .app-download-section .center-heading i {
     margin-right: 15px;
     font-size: 50px;
 }
@@ -1924,7 +1928,11 @@ download-section .center-heading h3 {
     .download-section.sec-padded-1x {
         padding: 65px 0;
     }
+    .app-download-section{
+        padding: 65px 0 0 0;
+    }
 }
+
 
 
 

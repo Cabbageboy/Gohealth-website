@@ -1907,7 +1907,9 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
  * ************************************************************** */
 
 .download-section {
+    z-index:0;
     background-color: #0288d1;
+    opacity:0.3;   
 }
 .download-section .center-heading,
 download-section .center-heading h3 {

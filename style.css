@@ -370,7 +370,7 @@ section::before {
 }
 #navigation nav {
     height: 70px;
-    line-height: 70px;
+ 
     background-color: rgba(255,255,255,.95);
 }
 #navigation nav a {
@@ -382,7 +382,7 @@ section::before {
 }
 #navigation nav .brand-logo {
     position: relative;
-    top: -10px;
+    margin-bottom: 20px;
     display: inline-block;
     height: 50px;
 }

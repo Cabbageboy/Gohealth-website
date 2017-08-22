@@ -66,7 +66,7 @@ var local_click=function(obj){
 	//process the text
 	document.getElementById("localbutton").className+=" disabled";
 	//document.getElementById("cloudbutton").className+=" disabled";
-	loadXMLDoc('http://localhost:8089/api/'+text);
+	loadXMLDoc('http://test.glucoguide.com:8089/api/'+text);
 	return; 
 };
 
@@ -149,8 +149,8 @@ function loadXMLDoc(url)
 		jsonpCallback: 'successCallback',
 		dataType:'jsonp',
 		success: function(res){
-			console.log('asdsad');
-			console.log(res);
+			// console.log('asdsad');
+			// console.log(res);
 			//var res=eval('('+res+')');
 			document.getElementById('results').innerHTML=res.res[0];
 	   		// if(res.food&&res.food.length>0)

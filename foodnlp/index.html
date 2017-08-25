@@ -21,8 +21,11 @@
 	 
 
 			<div class="page-header">
-	        	<h1>input your sentence</h1>
+	        	<h6>Enter your meal by speaking with voice recognition or by typing </h6>
 	      	</div>	
+
+	      	<button type="button" style="margin-bottom:10px" class="btn btn-default btn-sm" onclick="randomize()">generate an example sentence</button>
+			<br>
 
 			<textarea type='text' class="speech-input" placeholder="voice input" name='ntext' id='content' rows='5' cols='60'>
 			
@@ -30,22 +33,21 @@
 
  
 
-			<button type="button" class="btn btn-default btn-sm" onclick="randomize()">sentence examples</button>
-			<br>
+			
 
-			<button id="localbutton" type="button" class="btn btn-lg btn-primary" style="font-size:20; margin-top:20px;" onclick="local_click(this)">1.Local process</button> 
+			<button id="localbutton" type="button" class="btn btn-lg btn-primary" style="font-size:20; margin-top:20px;" onclick="local_click(this)">Enter</button> 
 	<!--		<button id="cloudbutton" type="button" class="btn btn-lg btn-success" style="font-size:20; margin-top:20px;" onclick="cloud_click(this)">2.Cloud process</button><br>
  	-->		
  			 
  		 	
-			<div class="panel panel-default" style="margin-top:50px;">
+			<!-- <div class="panel panel-default" style="margin-top:50px;">
 	            <div class="panel-heading">
-	              <h3 class="panel-title">Processed text:</h3>
+	              <h3 class="panel-title">Items </h3>
 	            </div>
 	            <div class="panel-body" id='results'>
 	              <p></p>
 	            </div>
-          	</div>
+          	</div> -->
           	 
 		</div>
 
@@ -59,7 +61,7 @@
 						<tr> 
 							<td><b>Amount</b></td>
 							<td><b>Unit</b></td>
-							<td><b>Food item</b></td>
+							<td><b>Item name</b></td>
 							<td><b>Description</b></td>
 						</tr>
 					</table>

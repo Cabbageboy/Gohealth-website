@@ -56,7 +56,7 @@ var local_click=function(obj){
 		alert("don't leave the space blank!");
 		return;
 	}
-	document.getElementById('results').innerHTML='';
+	//document.getElementById('results').innerHTML='';
 	var display=document.getElementById('display');
 	var len=display.childNodes.length;
 	while(len>2) 
@@ -152,7 +152,7 @@ function loadXMLDoc(url)
 			// console.log('asdsad');
 			// console.log(res);
 			//var res=eval('('+res+')');
-			document.getElementById('results').innerHTML=res.res[0];
+			//document.getElementById('results').innerHTML=res.res[0];
 	   		// if(res.food&&res.food.length>0)
 	   		//console.log(res.res[1]);
 	   		update(res.res[1]);

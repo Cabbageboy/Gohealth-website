@@ -26,15 +26,16 @@
 
 	      	<button type="button" style="margin-bottom:10px" class="btn btn-default btn-sm" onclick="randomize()">generate an example sentence</button>
 			<br>
-
-			<textarea type='text' class="speech-input" placeholder="voice input" name='ntext' id='content' rows='5' cols='60'>
-			
-			</textarea> <br>
-
+			<span>
+				<textarea type='text' class="speech-input" placeholder="voice input" name='ntext' id='content' rows='5' cols='60'>
+				
+				</textarea> <br>
+				<button id="clear" type="button" class="btn btn-lg btn-default" style="font-size:20; margin-top:20px; margin-right:20px;" onclick="clear_content()">Clear</button> 
+			</span>
  
 
 			
-
+		
 			<button id="localbutton" type="button" class="btn btn-lg btn-primary" style="font-size:20; margin-top:20px;" onclick="local_click(this)">Enter</button> 
 	<!--		<button id="cloudbutton" type="button" class="btn btn-lg btn-success" style="font-size:20; margin-top:20px;" onclick="cloud_click(this)">2.Cloud process</button><br>
  	-->		

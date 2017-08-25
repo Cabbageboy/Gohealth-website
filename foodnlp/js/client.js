@@ -25,6 +25,10 @@ var load=function(){
 	return;
 };
 
+var clear_content=function(){
+	document.getElementById('content').value='';
+};
+
 var cloud_click=function(obj){
 	//alert('processing!');
 	var text=document.getElementById('content').value;
@@ -53,7 +57,7 @@ var local_click=function(obj){
 	var text=document.getElementById('content').value;
 	//alert(textarea);
 	if(text.trim()==""){
-		alert("don't leave the space blank!");
+		alert("The text box is empty!");
 		return;
 	}
 	//document.getElementById('results').innerHTML='';

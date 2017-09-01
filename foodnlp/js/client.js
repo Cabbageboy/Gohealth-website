@@ -1,13 +1,13 @@
  
 var text=[
 
-	'i just have some meat',
-	'today i just ate some apple and salad',
-	'coke and burger',
-	'fish and chips',
-	//"i didn't eat anything but some apples",
-	//"i don't like pears but i can try some grapes and watermelons",
-	"i think cake is good",
+	// 'i just have some meat',
+	// 'today i just ate some apple and salad',
+	// 'coke and burger',
+	// 'fish and chips',
+	// //"i didn't eat anything but some apples",
+	// //"i don't like pears but i can try some grapes and watermelons",
+	// "i think cake is good",
 	"1 cup of juice 2 cups of beer"
 ];
 
@@ -20,8 +20,8 @@ var randomize=function(){
 };
 
 var load=function(){
-	randomize();
-	
+	//randomize();
+	document.getElementById('content').value='';
 	return;
 };
 
@@ -75,6 +75,7 @@ var local_click=function(obj){
 };
 
 var update=function(ret){
+	var display=document.getElementById('display');
 	for(var i=0;i<ret.length;i++){
 		var amount=ret[i][0];
 		var unit=ret[i][1];
